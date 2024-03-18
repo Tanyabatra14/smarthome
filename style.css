@@ -1,6 +1,6 @@
 body
 {
-    background: rgb(181,12,131);
+ 
     overflow-x: hidden;
     background: radial-gradient(circle, rgba(181,12,131,1) 0%, rgba(94,31,138,1) 100%);
 }
@@ -19,7 +19,6 @@ body
     padding: 10px;
 
     background-image: url("smarthomelogo.png");
-    /*background-size: cover;*/
     height:62px;
     width:75px;
     padding-left: 11px;
@@ -67,24 +66,7 @@ ul li a:hover
     margin-top: 27px;
 
 }
-/*.srch
-{
-    font-family: 'Times New Roman';
-    width :200px;
-    height : 40px;
-    background: transparent;
-    border:1px solid rgb(57, 57, 102);
-    margin-top: 13px;
-    color:white;
-    border-right:none;
-    font-size:16px;
-    float:left;
-    padding:15px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    
 
-}*/
 .srch
 {
     width:300px;
@@ -108,16 +90,7 @@ input::placeholder{
     color:white;
     text-align: end;
 }
-/*.online
-{
-    display :flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
-.online i{
-    margin-left: 40px;
-}*/
 .online
 {
     display:flex;
@@ -798,11 +771,7 @@ font-family: "Montserrat";
 {
     color:white;
     margin-left: 50px;
-    margin-top: -45px;
-    
-    
-
-}
+    margin-top: -45px;}
 .emailnumber
 {
     color:white;
@@ -815,3 +784,230 @@ font-family: "Montserrat";
     margin-left: 50px;
     margin-top: -45px;
 }
+
+.menu-btn
+{
+ position:absolute;
+ top:30px;
+ right:30px;   
+ width:40px;
+ cursor:pointer;
+}
+@media (max-width:560px)
+{
+    .body
+    {
+        overflow-x: hidden;
+    }
+    .navbar{
+        /*width:300px;
+        height: 50px;*/
+        padding:0;
+    }
+    .menu {
+        justify-content: centre;
+        flex-direction:column;
+        width:100%;
+        height:100%;
+        margin-left:-100px;
+    
+      
+        
+
+
+    }
+    .mobile-menu
+    {
+        margin-top:0px;
+    }
+    .logo{
+        margin-left:10px
+        ;
+        
+    }
+    .online{
+        display:none;
+    }
+    .search{
+        margin-left: 110px;
+        margin-top:50px;
+        display: none;
+    }
+    .content{
+        margin-left:50px;
+        margin-top: 50px;
+    }
+    .seemore{
+        margin-left: 50px;
+    }
+    .logo1{
+        margin-left:50px;
+      
+        margin-top: 50px;
+    }
+    .textfinal{
+        margin-left:90px;
+        margin-top:-750px;
+        width:800px;
+        height:400px;
+    }
+    .ghar2 img {
+         margin-top: 700px;
+         margin-left: -20px;
+         height:500px;
+         width:500px;
+    }
+    .diamond2{
+        margin-left: 300px;
+        height:200px;
+        width:200px;
+    }
+    .diamond3{
+        margin-left: 450px;
+        
+    }
+    .box1{
+        width: 350px;
+        height: auto;
+        margin-top:;
+    
+    }
+    .shape2{
+        margin-left: -5px;
+        margin-top: 100px;
+    }
+    .write1{
+        margin-top:-500px;
+        margin-left:-50px;
+    }
+    .write2
+    {
+        margin-left: 100px;
+        margin-top: 160px;
+    }
+    .shape4{
+        margin-left: 150px;
+        margin-top:120px;
+    }
+    .write3{
+        margin-left:60px ;
+        margin-top: 150px;
+    }
+    .heading{
+        margin-left:140px ;
+    }
+    .longbox2
+    {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .longbox1{
+        margin-left: 100px;
+    }
+    .longbox3{
+        margin-left: 100px;
+        margin-top: 50px; 
+    }
+    .againlogo2
+    {
+        margin-left: -120px;
+        margin-top:500px ;
+    }
+    .smart1{
+        margin-left: -700px;
+        margin-top: -1000px;
+    }
+    .diamond6{
+        display:none ;
+       
+    }
+    .textmonitor
+    {
+    margin-top:300px;
+    margin-left:150px;
+    }
+    .phone1{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .phoneghar
+    {
+        margin-left:-950px ;
+    }
+    .seemore5{
+        margin-left: 100px;
+    }
+    .writewrite{
+
+        display:none ;
+    }
+    .delivery{
+        margin-left: 80px;
+    }
+    .writeagain1{
+        margin-left:70px;
+    }
+    .againbox1{
+        margin-left:70px;
+    }
+    .lasthome{
+        margin-left:-10px;
+        width:300px;
+    }
+    .lastabout{
+        margin-left:59px;
+        margin-top:150px;
+    }
+    .lastlorem{
+        margin-left:59px;
+    }
+    .fontawesome
+    {
+        display:none;
+    }
+    .fontawesome1
+    {
+        display:none;
+    }
+    .fontawesome2{
+        display:none;
+    }
+    .diamond8
+    {
+        display:none;
+    }
+    .check{
+        margin-top:100px;
+        margin-left: 50px;
+    }
+    .box13{
+margin-left:-20px;
+    }
+    .box23
+    {
+        margin-left:-470px;
+        margin-top: 500px;
+    }
+    .box33
+    {
+        margin-left:-470px;
+        margin-top: 1000px; 
+    }
+    .ipsum{
+        display:none;
+    }
+    .ipsum1{
+        display:none;
+    }
+  .ipsum2{
+    display:none;
+  }
+  .lineline{
+    width:400px;
+    height: 50px;
+    margin-left:50px
+  }
+
+    }
+   
+
